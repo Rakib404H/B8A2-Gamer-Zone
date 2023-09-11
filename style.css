@@ -15,6 +15,13 @@ body {
 
 
 /* Header section */
+header {
+    border-top: 1px solid #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+
+}
+
 .logos {
     display: flex;
     gap: 10px;
@@ -48,7 +55,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 40px 240px;
+    padding: 10px 240px;
 }
 
 .icon-menu {
@@ -75,8 +82,37 @@ nav {
     font-weight: 600;
     color: var(--title-black-color);
 }
-.header-texts p{
+
+.header-texts p {
     color: var(--description-text-color);
     font-weight: 500;
-font-size: 1.25rem;
+    font-size: 1.25rem;
+}
+
+.header-main {
+    border: 1px solid rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/Group14.png);
+    background-repeat: no-repeat;
+}
+
+.header-content-section {
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.header-texts {
+    width: auto;
+    margin-left: 240px;
+}
+
+.header-img-section img {
+    max-width: calc(100% - 240px);
+}
+
+.header-img-section {
+    width: 100%;
 }
