@@ -512,6 +512,7 @@ footer span {
     .header-texts {
         margin: auto;
         padding: 20px;
+        margin-left: 0;
     }
 
     .header-btns {
@@ -525,8 +526,10 @@ footer span {
         justify-content: center;
         align-items: center;
         flex-direction: column-reverse;
-        gap: 100px;
+        /* gap: 100px; */
         width: 100%;
+        background-position: bottom left;
+        background-size:155%;
     }
     .header-img-section img {
         max-width: calc(90% - 20px);
@@ -540,8 +543,15 @@ footer span {
 
     .header-content-section .span1 {
         text-align: center;
+        font-size: 1.5rem;
     }
-
+    .header-content-section .span2{
+        font-size: 4rem;
+    }
+    .header-btns{
+        display: flex;
+        margin: 10px;
+    }
     .gamer-section-img {
         margin-left: 0
     }
@@ -704,6 +714,8 @@ footer span {
         flex-direction: column-reverse;
         gap: 100px;
         width: auto;
+        background-position: bottom left;
+        background-size: 85%;
     }
     .header-img-section img {
         width: calc(100% - 20px);
@@ -833,3 +845,4 @@ footer span {
         padding-top: 50px;
     }
 }
+
